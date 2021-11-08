@@ -1,0 +1,29 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "hoc",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon --inspect index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nguyentr02/nodejs_js.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "nguyentr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nguyentr02/nodejs_js/issues"
+  },
+  "homepage": "https://github.com/nguyentr02/nodejs_js#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  }
+}
