@@ -4,6 +4,7 @@ const app = express()
 const path = require('path')
 const handlebars = require('express-handlebars')
 const port = 3000
+const sass = require('node-sass')
 
 app.use(express.static(path.join(__dirname,'public')))
 //HTTP Logger:
@@ -27,7 +28,7 @@ app.get('/', (req, res) => {
 })
 
 app.get('/news', (req, res) => {
-  res.render('news')
+  res.render('news');
 })
 
 app.listen(port, () => {
